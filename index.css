@@ -66,6 +66,13 @@ body {
     align-items: center;
 }
 
+.saved-container::-webkit-scrollbar,
+.scrollable-feed-container::-webkit-scrollbar,
+.search-container::-webkit-scrollbar,
+.preferences-container::-webkit-scrollbar {
+    width: 0;
+}
+
 .menu-bar {
     position: absolute;
     width: 150px;
